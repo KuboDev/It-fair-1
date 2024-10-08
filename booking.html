@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mount Everest Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Everest</a></li>
+                <li><a href="gallery.html">Gallery</a></li>             
+                <li><a href="info.html">Visitor Info</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<section id="booking" class="booking-section">
+    <h2>Book a Hotel Room</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="checkin">Check-in Date:</label>
+        <input type="date" id="checkin" name="checkin" required>
+        <label for="checkout">Check-out Date:</label>
+        <input type="date" id="checkout" name="checkout" required>
+        <label for="room-type">Room Type:</label>
+        <select id="room-type" name="room-type">
+            <option value="single">Single Room</option>
+            <option value="double">Double Room</option>
+            <option value="suite">Suite</option>
+        </select>
+        <button type="submit">Book Now</button>
+    </form>
+</section>
+
+ 
+    <footer>
+        <p>© 2024 Mount Everest Adventure. All rights reserved.</p>
+        <p>Contact us at: info@everestadventure.com</p>
+    </footer>
+</body>
+</html>
